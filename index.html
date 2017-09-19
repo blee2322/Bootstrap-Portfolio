@@ -2,41 +2,131 @@
 <html>
 <head>
   <title>Bootstrap Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+ <nav class="navbar navbar-default">
+      <div class="container navbar-custom">
 
-<!-- This is the Bootstrap Navigation Bar -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="card">
-          <div class="card-header" style="background-color: #4aaaa5; text-align:center; color:white; font-size:25px;">
-            Your Name
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="#" id="logo" style="background-color:#4aaaa5; color:white;">Your Name</a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="index.html">About</a></li>
+            </ul>
           </div>
         </div>
       </div>
-        <div class="col-lg-9">
-          <nav class="navbar navbar-light bg-faded">
-            <span class="navbar-text ml-auto">
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-            </span>
-          </nav>
-        </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+          <div class= "col-xs-7" style="background-color: white; padding-top:25px; padding-bottom: 40px;">
+            <h1 style="color:#4aaaa5; font-weight:bold; margin-left:20px; margin-bottom:30px;">About Me</h1>
+              <div class= "row">
+                <div class= "col-xs-5">
+                 <img src="assets/images/cat.jpg" alt="Your Name" style= "max-width: 100%; text-align: center;"> 
+                </div>
+                <div class= "col-xs-7" style="margin: 5 auto;">
+                  <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+
+                  <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+                </div>
+              </div>
+            </div>
+          <div class= "col-xs-4 col-xs-offset-1" style="background-color: white; padding-top:25px; padding-bottom:20px;">
+            <h1 style="color:#4aaaa5; font-weight:bold; text-align: center; margin-bottom: 50px;">Connect With Me</h1>
+              <div class="row">
+                <div class="col-xs-4" style="text-align:center;">
+                  <a href="#"><img src="assets/images/github-128.png" class="social img-responsive" alt="GitHub"/></a>
+                </div>
+                <div class="col-xs-4" style="text-align:center;">
+                  <a href="#"><img src="assets/images/linkedin-128.png" class="social img-responsive" alt="LinkedIn"/></a>
+                </div>
+                <div class= "col-xs-4" style="text-align:center;">
+                  <a href="#"><img src="assets/images/stackoverflow-128.png" class="social img-responsive" alt="Stack Overflow"/></a>
+                </div>
+              </div> 
+          </div> <!-- This is the end of col-lg-4 -->
+      </div> <!-- This is the end of row master  -->
     </div>
-  </div>
+
+    <footer>
+        <div class="row">
+          <div class="col-xs-12" style="padding: 30px 0; clear: both; font-size: 12px; color: #fff; color: #ccc; text-align: center; background: #666; border-top: 8px solid #4aaaa5; margin-top:30px;">
+            Copyright &copy; 2016 Your Name
+          </div>
+        </div>
+      </footer>
+
+
 
 <body>
 </html>
+    
+  <!-- This container houses the About Me and Contact panels -->
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-7" style="padding-left:0; padding-top:20px;">
+        <div class="row card-block">
+          <div class="col-lg-6">
+            <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name" style="width:35%; margin-left:10px;">            
+          </div>
+          <div class="col-lg-6">
+            <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+
+              <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+          </div>
+
+
+        </div>
+              
+          
+      </div>
+
+      <div class="col-lg-5" style="padding-right:0; padding-top:20px;">
+        <div class="card">
+          <div  style="padding-top:20px; padding-bottom:40px;">
+            <section class="sidebar">
+              <div id="connect">
+                <h2 style= "color: #4aaaa5; text-align: center; margin-bottom: 30px;">Connect with Me</h2>
+                <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+                <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+                <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      
+    </div>
+  </div> -->
+
+
+      
+
+<!-- Things to still complete: 
+Center the icons
+Make the text wrap around the image -->

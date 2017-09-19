@@ -1,0 +1,18 @@
+body{
+  background-image: url("../images/concrete_seamless.png");
+}
+.social{
+  max-width: 50%;
+}
+.Hang,
+.TG,
+.RPS,
+.RPG,
+.RIW{
+  max-width: 80%;
+  margin-bottom:20px;
+}
+h3{
+  background color: #4aaaa5;
+  width:100%;
+}
