@@ -12,7 +12,11 @@ body{
   max-width: 80%;
   margin-bottom:20px;
 }
-h3{
-  background color: #4aaaa5;
-  width:100%;
-}
+.overtext{
+  background-color: #4aaaa5;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 16%;
+  left: 0;
+  width: 100%;
+  text-align: center;
